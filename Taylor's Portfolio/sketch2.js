@@ -40,19 +40,3 @@ function mousePressed(){
     rSpeed=0
     pulseSpeed=0
   }
-
-function draw() {
-  myQuestion.position(x,y)
-  
-
-  
-  // x++;
-  // y++;
-  
-  if(x>windowWidth){
-    x=0;;
-  }
-  if(y>windowHeight){
-    y=0;
-  }
-}
